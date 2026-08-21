@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import {
@@ -32,14 +33,30 @@ export default function Navbar() {
 
   return (
     <header
-      className={`sticky top-0 z-50 h-18 border-b bg-white transition-shadow duration-300 ${
+      className={`sticky top-0 z-50 h-20 border-b bg-white transition-shadow duration-300 ${
         scrolled ? "border-maroon/10 shadow-[0_4px_16px_rgba(74,18,27,0.06)]" : "border-transparent"
       }`}
     >
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-baseline font-display" onClick={() => setOpen(false)}>
-          <span className="text-[22px] font-bold text-maroon">Kwik2</span>
-          <span className="text-[22px] font-bold text-gold">Travels</span>
+        <Link href="/" className="flex items-center gap-3 font-display" onClick={() => setOpen(false)}>
+          <div className="relative size-12 overflow-hidden rounded-full border border-gold/40 shadow-sm">
+            <Image
+              src="/images/logo.jpg"
+              alt="Kwik2Travels Logo"
+              fill
+              className="object-cover"
+              priority
+            />
+          </div>
+          <div className="flex flex-col">
+            <div className="flex items-baseline leading-tight">
+              <span className="text-xl font-bold text-maroon">Kwik2</span>
+              <span className="text-xl font-bold text-gold">Travels</span>
+            </div>
+            <span className="text-[10px] font-semibold tracking-wider text-maroon/70 uppercase">
+              {business.slogan}
+            </span>
+          </div>
         </Link>
 
         <nav className="hidden lg:flex lg:items-center lg:gap-8">

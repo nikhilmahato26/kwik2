@@ -1,6 +1,8 @@
 export const business = {
   name: "Kwik2Travels",
   tagline: "Cab & Travel Services",
+  slogan: "We Are Too Quicker",
+  logo: "/images/logo.jpg",
   phoneDisplay: "+91 93291 16616",
   phoneTel: "tel:+919329116616",
   whatsapp: "https://wa.me/919329116616",

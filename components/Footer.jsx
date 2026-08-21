@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import { Phone } from "lucide-react";
 import { business } from "@/data/business";
@@ -18,10 +19,25 @@ export default function Footer() {
     <footer className="bg-maroon-deep px-4 pt-16 pb-8 sm:px-6 lg:px-8">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <p className="font-display text-2xl font-bold text-white">
-            KWIK2TRAVELS
+          <div className="flex items-center gap-3">
+            <div className="relative size-12 overflow-hidden rounded-full border border-gold/40 shadow-sm">
+              <Image
+                src="/images/logo.jpg"
+                alt="Kwik2Travels Logo"
+                fill
+                className="object-cover"
+              />
+            </div>
+            <div>
+              <p className="font-display text-xl font-bold text-white leading-none">
+                KWIK2TRAVELS
+              </p>
+              <p className="mt-1 text-xs text-gold-light font-medium">{business.slogan}</p>
+            </div>
+          </div>
+          <p className="mt-4 text-sm text-white/60">
+            Comfortable and reliable cab services for local, outstation and airport travel.
           </p>
-          <p className="mt-2 text-sm text-white/60">Cab & Travel Services</p>
         </div>
 
         <div>
