@@ -17,8 +17,8 @@ export default function About() {
           className="relative aspect-[4/3] overflow-hidden rounded-card"
         >
           <Image
-            src="https://picsum.photos/seed/kwik2travels-city-drive/1200/900"
-            alt="Cab travelling through a city street, representing Kwik2Travels local and outstation service"
+            src="/images/services.jpg"
+            alt="Friendly driver providing excellent customer service"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
             className="object-cover"

@@ -14,7 +14,7 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-maroon-deep">
       <div className="absolute inset-0">
         <Image
-          src="https://picsum.photos/seed/kwik2travels-highway-drive/1920/1280"
+          src="/images/hero.jpg"
           alt="Premium sedan travelling along a scenic Indian highway at golden hour"
           fill
           priority
