@@ -20,12 +20,12 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <div className="relative size-12 overflow-hidden rounded-full border border-gold/40 shadow-sm">
+            <div className="relative h-16 w-12 shrink-0">
               <Image
                 src="/images/logo.jpg"
                 alt="Kwik2Travels Logo"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
             <div>

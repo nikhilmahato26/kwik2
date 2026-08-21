@@ -38,17 +38,17 @@ export default function Navbar() {
       }`}
     >
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <Link href="/" className="flex items-center gap-3 font-display" onClick={() => setOpen(false)}>
-          <div className="relative size-12 overflow-hidden rounded-full border border-gold/40 shadow-sm">
+        <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
+          <div className="relative h-14 w-11 shrink-0">
             <Image
               src="/images/logo.jpg"
               alt="Kwik2Travels Logo"
               fill
-              className="object-cover"
+              className="object-contain"
               priority
             />
           </div>
-          <div className="flex flex-col">
+          <div className="flex flex-col font-display">
             <div className="flex items-baseline leading-tight">
               <span className="text-xl font-bold text-maroon">Kwik2</span>
               <span className="text-xl font-bold text-gold">Travels</span>
