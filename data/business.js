@@ -69,6 +69,7 @@ export const business = {
   navLinks: [
     { label: "Home", href: "/" },
     { label: "About", href: "/#about" },
+    { label: "Holidays", href: "/holidays" },
     { label: "Services", href: "/services" },
     { label: "Our Fleet", href: "/fleet" },
     { label: "Booking", href: "/booking" },

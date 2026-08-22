@@ -14,7 +14,11 @@ const nextConfig = {
         hostname: "fastly.picsum.photos",
         port: "",
         pathname: "/**",
-        search: "",
+      },
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        pathname: "/**",
       },
     ],
   },
