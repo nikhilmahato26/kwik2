@@ -70,6 +70,7 @@ export const business = {
     { label: "Home", href: "/" },
     { label: "About", href: "/#about" },
     { label: "Holidays", href: "/holidays" },
+    { label: "Hotels", href: "/hotels" },
     { label: "Services", href: "/services" },
     { label: "Our Fleet", href: "/fleet" },
     { label: "Booking", href: "/booking" },

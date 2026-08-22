@@ -6,7 +6,9 @@ import About from "@/components/About";
 import CTA from "@/components/CTA";
 import HolidayCollections from "@/components/HolidayCollections";
 import HolidayCard from "@/components/HolidayCard";
+import HotelCard from "@/components/HotelCard";
 import { holidayPackages } from "@/data/holidays";
+import { hotels } from "@/data/hotels";
 import Link from "next/link";
 
 export default function Home() {
@@ -39,6 +41,35 @@ export default function Home() {
               className="inline-block rounded-lg bg-maroon-deep px-8 py-3.5 text-sm font-bold tracking-wide text-white shadow-md transition-colors hover:bg-maroon"
             >
               View All Packages
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Featured Hotels Section */}
+      <section className="bg-gray-50/50 px-4 py-16 sm:px-6 lg:px-8 lg:py-24">
+        <div className="mx-auto max-w-7xl">
+          <div className="mb-12 text-center">
+            <h2 className="font-display text-3xl font-bold text-gray-900 sm:text-4xl">
+              Featured Luxury Hotels
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-lg text-gray-600">
+              Experience world-class hospitality in our handpicked selection of premium properties.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:gap-8">
+            {hotels.slice(0, 3).map((hotel) => (
+              <HotelCard key={hotel.id} hotel={hotel} />
+            ))}
+          </div>
+          
+          <div className="mt-12 text-center">
+            <Link 
+              href="/hotels" 
+              className="inline-block rounded-lg bg-maroon-deep px-8 py-3.5 text-sm font-bold tracking-wide text-white shadow-md transition-colors hover:bg-maroon"
+            >
+              Explore All Hotels
             </Link>
           </div>
         </div>
