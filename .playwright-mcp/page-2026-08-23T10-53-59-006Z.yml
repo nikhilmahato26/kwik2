@@ -1,0 +1,91 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - link "Kwik2Travels Logo Kwik2 Travels We Are Too Quicker" [ref=f8e4] [cursor=pointer]:
+        - /url: /
+        - img "Kwik2Travels Logo" [ref=f8e6]
+        - generic [ref=f8e7]:
+          - generic [ref=f8e8]:
+            - generic [ref=f8e9]: Kwik2
+            - generic [ref=f8e10]: Travels
+          - generic [ref=f8e11]: We Are Too Quicker
+      - navigation [ref=f8e12]:
+        - link "Home" [ref=f8e13] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=f8e14] [cursor=pointer]:
+          - /url: /#about
+        - link "Holidays" [ref=f8e15] [cursor=pointer]:
+          - /url: /holidays
+        - link "Hotels" [ref=f8e16] [cursor=pointer]:
+          - /url: /hotels
+        - link "Services" [ref=f8e17] [cursor=pointer]:
+          - /url: /services
+        - link "Our Fleet" [ref=f8e18] [cursor=pointer]:
+          - /url: /fleet
+        - link "Booking" [ref=f8e19] [cursor=pointer]:
+          - /url: /booking
+        - link "Contact" [ref=f8e20] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f8e21]:
+        - link "+91 93291 16616" [ref=f8e22] [cursor=pointer]:
+          - /url: tel:+919329116616
+        - link "BOOK NOW" [ref=f8e25] [cursor=pointer]:
+          - /url: /booking
+  - main [ref=f8e26]
+  - contentinfo [ref=f8e60]:
+    - generic [ref=f8e61]:
+      - generic [ref=f8e62]:
+        - generic [ref=f8e63]:
+          - img "Kwik2Travels Logo" [ref=f8e65]
+          - generic [ref=f8e66]:
+            - paragraph [ref=f8e67]: KWIK2TRAVELS
+            - paragraph [ref=f8e68]: We Are Too Quicker
+        - paragraph [ref=f8e69]: Comfortable and reliable cab services for local, outstation and airport travel.
+      - generic [ref=f8e70]:
+        - paragraph [ref=f8e71]: Quick Links
+        - list [ref=f8e72]:
+          - listitem [ref=f8e73]:
+            - link "Home" [ref=f8e74] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f8e75]:
+            - link "About" [ref=f8e76] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=f8e77]:
+            - link "Holidays" [ref=f8e78] [cursor=pointer]:
+              - /url: /holidays
+          - listitem [ref=f8e79]:
+            - link "Hotels" [ref=f8e80] [cursor=pointer]:
+              - /url: /hotels
+          - listitem [ref=f8e81]:
+            - link "Services" [ref=f8e82] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=f8e83]:
+            - link "Our Fleet" [ref=f8e84] [cursor=pointer]:
+              - /url: /fleet
+          - listitem [ref=f8e85]:
+            - link "Booking" [ref=f8e86] [cursor=pointer]:
+              - /url: /booking
+          - listitem [ref=f8e87]:
+            - link "Contact" [ref=f8e88] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=f8e89]:
+        - paragraph [ref=f8e90]: Our Services
+        - list [ref=f8e91]:
+          - listitem [ref=f8e92]: Airport Transfers
+          - listitem [ref=f8e93]: One Way
+          - listitem [ref=f8e94]: Round Trip
+          - listitem [ref=f8e95]: Local Travel
+          - listitem [ref=f8e96]: Outstation Travel
+          - listitem [ref=f8e97]: Tour Packages
+      - generic [ref=f8e98]:
+        - paragraph [ref=f8e99]: Contact
+        - link "+91 93291 16616" [ref=f8e100] [cursor=pointer]:
+          - /url: tel:+919329116616
+    - paragraph [ref=f8e104]: © 2026 Kwik2Travels. All rights reserved.
+  - generic [ref=f8e105]:
+    - link "Chat on WhatsApp" [ref=f8e106] [cursor=pointer]:
+      - /url: https://wa.me/919329116616
+    - link "Call Kwik2Travels" [ref=f8e109] [cursor=pointer]:
+      - /url: tel:+919329116616
+  - button "Open Next.js Dev Tools" [ref=f8e117] [cursor=pointer]
+  - alert [ref=f8e121]

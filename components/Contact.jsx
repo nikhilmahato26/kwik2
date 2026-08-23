@@ -20,13 +20,14 @@ export default function Contact({ business }) {
               </div>
               <div>
                 <p className="text-sm font-semibold text-maroon-deep">Phone</p>
-                <a href={business.phoneTel} className="text-[15px] text-text-dark/80">
+                <a href={business.phoneTel} className="text-[15px] block text-text-dark/80 hover:text-maroon transition-colors">
                   {business.phoneDisplay}
                 </a>
-                <br />
-                <a href="tel:+916232322216" className="text-[15px] text-text-dark/80">
-                  +91 62323 22216
-                </a>
+                {business.phoneDisplay2 && (
+                  <a href={business.phoneTel2} className="text-[15px] block text-text-dark/80 hover:text-maroon transition-colors mt-0.5">
+                    {business.phoneDisplay2}
+                  </a>
+                )}
               </div>
             </div>
 

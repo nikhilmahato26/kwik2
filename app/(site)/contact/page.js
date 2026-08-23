@@ -5,7 +5,7 @@ import { getBusinessData } from "@/lib/data";
 export const metadata = {
   title: "Contact Us",
   description:
-    "Contact Kwik2Travels for cab bookings, outstation trips and airport transfers. Call +91 93291 16616 or send an enquiry.",
+    "Contact Kwik2Travels for cab bookings, outstation trips and airport transfers. Call +91 93291 16616 or +91 62323 22216 or send an enquiry.",
 };
 
 export default async function ContactPage() {

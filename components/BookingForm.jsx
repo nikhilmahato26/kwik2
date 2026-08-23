@@ -55,23 +55,6 @@ const TABS = [
   },
 
 ];
-
-const CURRENCIES = [
-  "USD - US Dollar ($)",
-  "EUR - Euro (€)",
-  "AED - UAE Dirham (AED)",
-  "THB - Thai Baht (฿)",
-  "GBP - British Pound (£)",
-  "SGD - Singapore Dollar (S$)",
-  "AUD - Australian Dollar (A$)",
-  "CAD - Canadian Dollar (C$)",
-  "SAR - Saudi Riyal (SAR)",
-  "JPY - Japanese Yen (¥)",
-  "MYR - Malaysian Ringgit (RM)",
-  "CHF - Swiss Franc (CHF)",
-  "Other Currency",
-];
-
 export default function BookingForm({
   title = null,
   compact = false,
@@ -116,11 +99,6 @@ export default function BookingForm({
     carDate: "",
     carTime: "",
     carVehicle: "Toyota Innova Crysta",
-    // Forex
-    forexService: "Buy Foreign Currency Notes",
-    forexCurrency: "USD - US Dollar ($)",
-    forexAmount: "",
-    deliveryCity: "Doorstep Delivery",
     // Cabs
     cabService: "City Ride / Point to Point",
     cabPickup: "",

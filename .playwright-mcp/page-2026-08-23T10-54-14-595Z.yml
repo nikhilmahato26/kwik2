@@ -1,0 +1,15 @@
+- generic [active] [ref=f9e1]:
+  - generic [ref=f9e3]:
+    - generic [ref=f9e4]:
+      - generic [ref=f9e5]: Kwik2Travels
+      - paragraph [ref=f9e7]: Admin Portal
+    - generic [ref=f9e8]:
+      - generic [ref=f9e9]:
+        - generic [ref=f9e10]: Email Address
+        - textbox "admin@kwik2travels.com" [ref=f9e11]
+      - generic [ref=f9e12]:
+        - generic [ref=f9e13]: Password
+        - textbox "••••••••" [ref=f9e14]: admin123
+      - button "Secure Sign In" [ref=f9e15]
+  - button "Open Next.js Dev Tools" [ref=f9e22] [cursor=pointer]
+  - alert [ref=f9e26]

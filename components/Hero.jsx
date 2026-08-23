@@ -50,7 +50,7 @@ export default function Hero({ business }) {
 
             <p className="mt-4 text-base leading-relaxed text-gray-200 sm:text-lg">
               Seamless booking for Holidays, Flights, Hotels, Cars, Cabs &
-              Foreign Exchange — tailored for your comfort and peace of mind.
+              Visa — tailored for your comfort and peace of mind.
             </p>
 
             {/* Quick Benefits */}
@@ -73,13 +73,24 @@ export default function Hero({ business }) {
                 <Phone className="size-4" aria-hidden />
                 CALL NOW
               </Button>
-              <a
-                href={business.phoneTel}
-                className="inline-flex items-center gap-2 text-base font-semibold text-white/90 transition-colors hover:text-gold-light"
-              >
-                <Phone className="size-4 text-gold" aria-hidden />
-                {business.phoneDisplay}
-              </a>
+              <div className="flex flex-col gap-1">
+                <a
+                  href={business.phoneTel}
+                  className="inline-flex items-center gap-2 text-base font-semibold text-white/90 transition-colors hover:text-gold-light"
+                >
+                  <Phone className="size-4 text-gold" aria-hidden />
+                  {business.phoneDisplay}
+                </a>
+                {business.phoneDisplay2 && (
+                  <a
+                    href={business.phoneTel2}
+                    className="inline-flex items-center gap-2 text-base font-semibold text-white/90 transition-colors hover:text-gold-light"
+                  >
+                    <Phone className="size-4 text-gold" aria-hidden />
+                    {business.phoneDisplay2}
+                  </a>
+                )}
+              </div>
             </div>
 
             {/* Rating badge */}

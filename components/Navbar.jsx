@@ -71,14 +71,25 @@ export default function Navbar({ business }) {
           ))}
         </nav>
 
-        <div className="hidden items-center gap-3 lg:flex">
-          <a
-            href={business.phoneTel}
-            className="flex items-center gap-2 text-sm font-semibold text-maroon"
-          >
-            <Phone className="size-4" aria-hidden />
-            {business.phoneDisplay}
-          </a>
+        <div className="hidden items-center gap-4 lg:flex">
+          <div className="flex flex-col gap-0.5">
+            <a
+              href={business.phoneTel}
+              className="flex items-center gap-1.5 text-sm font-semibold text-maroon hover:text-maroon-deep transition-colors"
+            >
+              <Phone className="size-3.5" aria-hidden />
+              {business.phoneDisplay}
+            </a>
+            {business.phoneDisplay2 && (
+              <a
+                href={business.phoneTel2}
+                className="flex items-center gap-1.5 text-sm font-semibold text-maroon hover:text-maroon-deep transition-colors"
+              >
+                <Phone className="size-3.5" aria-hidden />
+                {business.phoneDisplay2}
+              </a>
+            )}
+          </div>
           <Button as={Link} href="/booking" size="default">
             BOOK NOW
           </Button>
@@ -117,11 +128,20 @@ export default function Navbar({ business }) {
               ))}
               <a
                 href={business.phoneTel}
-                className="flex items-center gap-2 rounded-[10px] px-3 py-3 text-base font-semibold text-maroon"
+                className="flex items-center gap-2 rounded-[10px] px-3 py-2 text-base font-semibold text-maroon"
               >
                 <Phone className="size-4" aria-hidden />
                 {business.phoneDisplay}
               </a>
+              {business.phoneDisplay2 && (
+                <a
+                  href={business.phoneTel2}
+                  className="flex items-center gap-2 rounded-[10px] px-3 py-2 text-base font-semibold text-maroon"
+                >
+                  <Phone className="size-4" aria-hidden />
+                  {business.phoneDisplay2}
+                </a>
+              )}
               <Button as={Link} href="/booking" size="lg" className="mt-2" onClick={() => setOpen(false)}>
                 BOOK NOW
               </Button>

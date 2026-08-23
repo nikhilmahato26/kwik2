@@ -6,6 +6,8 @@ export const business = {
   phoneDisplay: "+91 93291 16616",
   phoneTel: "tel:+919329116616",
   whatsapp: "https://wa.me/919329116616",
+  phoneDisplay2: "+91 62323 22216",
+  phoneTel2: "tel:+916232322216",
   services: [
     {
       slug: "airport-transfers",

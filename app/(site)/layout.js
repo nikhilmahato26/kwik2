@@ -26,7 +26,7 @@ export const metadata = {
     template: "%s | Kwik2Travels",
   },
   description:
-    "Kwik2Travels offers reliable cab rental, local travel, outstation trips and airport transfers with Innova Crysta, Ertiga and Swift Dzire. Call +91 93291 16616 to book.",
+    "Kwik2Travels offers reliable cab rental, local travel, outstation trips and airport transfers with Innova Crysta, Ertiga and Swift Dzire. Call +91 93291 16616 or +91 62323 22216 to book.",
   keywords: [
     "Kwik2Travels",
     "cab service",

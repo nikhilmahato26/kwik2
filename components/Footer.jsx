@@ -79,6 +79,15 @@ export default function Footer({ business }) {
             <Phone className="size-4" aria-hidden />
             {business.phoneDisplay}
           </a>
+          {business.phoneDisplay2 && (
+            <a
+              href={business.phoneTel2}
+              className="mt-2 flex items-center gap-2 text-sm text-white/70 hover:text-white"
+            >
+              <Phone className="size-4" aria-hidden />
+              {business.phoneDisplay2}
+            </a>
+          )}
         </div>
       </div>
 

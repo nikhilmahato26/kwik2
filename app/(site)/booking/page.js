@@ -25,9 +25,17 @@ export default async function BookingPage() {
           <p className="mt-6 flex items-center justify-center gap-2 text-sm text-text-dark/60">
             <Phone className="size-4" aria-hidden />
             Prefer to talk? Call us at{" "}
-            <a href={business.phoneTel} className="font-semibold text-maroon">
+            <a href={business.phoneTel} className="font-semibold text-maroon hover:text-maroon-deep">
               {business.phoneDisplay}
             </a>
+            {business.phoneDisplay2 && (
+              <>
+                {" "}or{" "}
+                <a href={business.phoneTel2} className="font-semibold text-maroon hover:text-maroon-deep">
+                  {business.phoneDisplay2}
+                </a>
+              </>
+            )}
           </p>
         </div>
       </section>

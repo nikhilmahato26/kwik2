@@ -8,9 +8,9 @@ const FIELDS = [
   { name: "name", label: "Business Name", placeholder: "e.g. Kwik2Travels" },
   { name: "tagline", label: "Tagline", placeholder: "e.g. Cab & Travel Services" },
   { name: "slogan", label: "Slogan", placeholder: "e.g. We Are Too Quicker" },
-  { name: "phoneDisplay", label: "Phone Number (Display)", placeholder: "e.g. +91 93291 16616" },
-  { name: "phoneTel", label: "Phone Number (Tel Link)", placeholder: "e.g. tel:+919329116616" },
-  { name: "whatsapp", label: "WhatsApp Link", placeholder: "e.g. https://wa.me/919329116616" },
+  { name: "phoneDisplay", label: "Phone Number (Display)", placeholder: "e.g. +91 62323 22216" },
+  { name: "phoneTel", label: "Phone Number (Tel Link)", placeholder: "e.g. tel:+916232322216" },
+  { name: "whatsapp", label: "WhatsApp Link", placeholder: "e.g. https://wa.me/916232322216" },
 ]
 
 export default function SettingsForm({ initialData }) {

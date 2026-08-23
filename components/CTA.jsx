@@ -34,13 +34,24 @@ export default function CTA({ business }) {
           </Button>
         </div>
 
-        <a
-          href={business.phoneTel}
-          className="mt-6 inline-flex items-center gap-2 text-lg font-semibold text-gold-light"
-        >
-          <Phone className="size-5" aria-hidden />
-          {business.phoneDisplay}
-        </a>
+        <div className="mt-6 flex flex-col items-center gap-2 sm:flex-row sm:gap-6">
+          <a
+            href={business.phoneTel}
+            className="inline-flex items-center gap-2 text-lg font-semibold text-gold-light hover:text-white transition-colors"
+          >
+            <Phone className="size-5" aria-hidden />
+            {business.phoneDisplay}
+          </a>
+          {business.phoneDisplay2 && (
+            <a
+              href={business.phoneTel2}
+              className="inline-flex items-center gap-2 text-lg font-semibold text-gold-light hover:text-white transition-colors"
+            >
+              <Phone className="size-5" aria-hidden />
+              {business.phoneDisplay2}
+            </a>
+          )}
+        </div>
       </motion.div>
     </section>
   );
