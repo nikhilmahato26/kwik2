@@ -23,6 +23,10 @@ export default function Contact({ business }) {
                 <a href={business.phoneTel} className="text-[15px] text-text-dark/80">
                   {business.phoneDisplay}
                 </a>
+                <br />
+                <a href="tel:+916232322216" className="text-[15px] text-text-dark/80">
+                  +91 62323 22216
+                </a>
               </div>
             </div>
 

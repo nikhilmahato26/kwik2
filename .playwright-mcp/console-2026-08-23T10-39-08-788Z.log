@@ -1,0 +1,3051 @@
+[     221ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[     427ms] [LOG] [Fast Refresh] done in 308ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4649ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4667ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    4701ms] [WARNING] Image with src "/logo.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[    7686ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  123746ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  123813ms] [LOG] [Fast Refresh] done in 7ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  126946ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  128403ms] [LOG] [Fast Refresh] done in 7ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  131287ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  162164ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  163797ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  163798ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  163895ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  163899ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  166815ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  212202ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212203ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212271ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212404ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  212768ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212769ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212930ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212930ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212972ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  212972ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  494852ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  494853ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  494987ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  494987ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  496329ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  496330ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  496381ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  496382ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  497678ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  497679ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  497748ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  497749ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498270ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498271ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498336ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498336ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498465ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498466ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498557ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498558ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498649ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498650ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498701ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498702ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498819ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498820ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498908ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498909ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498979ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  498979ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  499027ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  499027ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  500415ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  500415ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  500465ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  500466ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  501604ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  501605ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  501668ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  501669ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  515132ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  515133ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  515242ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-client] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  515243ms] [ERROR] ./lib/icon-map.js:1:1
+Error: Export Passport doesn't exist in target module
+>  1 | import {
+     | ^^^^^^^
+>  2 |   Plane,
+     | ^^^^^^^^
+>  3 |   ArrowRight,
+     | ^^^^^^^^^^^^^
+>  4 |   Repeat,
+     | ^^^^^^^^^
+>  5 |   Route,
+     | ^^^^^^^^
+>  6 |   Car,
+     | ^^^^^^
+>  7 |   Compass,
+     | ^^^^^^^^^^
+>  8 |   Armchair,
+     | ^^^^^^^^^^^
+>  9 |   BadgeCheck,
+     | ^^^^^^^^^^^^^
+> 10 |   CalendarCheck,
+     | ^^^^^^^^^^^^^^^^
+> 11 |   Sparkles,
+     | ^^^^^^^^^^^
+> 12 |   HeartHandshake,
+     | ^^^^^^^^^^^^^^^^^
+> 13 |   Palmtree,
+     | ^^^^^^^^^^^
+> 14 |   Building2,
+     | ^^^^^^^^^^^^
+> 15 |   Passport
+     | ^^^^^^^^^^
+> 16 | } from "lucide-react";
+     | ^^^^^^^^^^^^^^^^^^^^^^
+  17 |
+  18 | export const iconMap = {
+  19 |   Plane,
+
+The export Passport was not found in module [project]/node_modules/lucide-react/dist/esm/lucide-react.mjs [app-ssr] (ecmascript).
+Did you mean to import Lasso?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./lib/icon-map.js [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Client Component Browser]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component]
+
+  Client Component SSR:
+    ./lib/icon-map.js [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Client Component SSR]
+    ./components/WhyChooseUs.jsx [Server Component]
+    ./app/(site)/page.js [Server Component] @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:1052
+[  550090ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  550351ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  550428ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  553101ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  555226ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  555340ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  555379ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  556838ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  558212ms] [WARNING] The resource http://localhost:3000/_next/static/chunks/app_globals_0yg4wg8.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:3000/contact:0
+[  659115ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
+[  664172ms] [LOG] [Fast Refresh] done in 345ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js:776
