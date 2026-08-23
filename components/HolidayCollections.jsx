@@ -1,10 +1,9 @@
 "use client";
 
 import Link from "next/link";
-import { holidayCollections } from "@/data/holidays";
 import { MapPin } from "lucide-react";
 
-export default function HolidayCollections() {
+export default function HolidayCollections({ holidayCollections }) {
   return (
     <section className="bg-gray-50/50 pt-16 pb-8 sm:pt-24 sm:pb-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">

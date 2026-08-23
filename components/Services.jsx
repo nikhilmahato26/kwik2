@@ -2,9 +2,8 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import ServiceCard from "@/components/ServiceCard";
-import { business } from "@/data/business";
 
-export default function Services({ showIntro = true }) {
+export default function Services({ business, showIntro = true }) {
   const reduce = useReducedMotion();
   const [featured, ...rest] = business.services;
 

@@ -1,6 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import Services from "@/components/Services";
 import CTA from "@/components/CTA";
+import { getBusinessData } from "@/lib/data";
 
 export const metadata = {
   title: "Cab Services",
@@ -8,15 +9,16 @@ export const metadata = {
     "Airport transfers, one way cabs, round trips, outstation travel, local cab and tour packages from Kwik2Travels.",
 };
 
-export default function ServicesPage() {
+export default async function ServicesPage() {
+  const business = await getBusinessData();
   return (
     <>
       <PageHeader
         title="Our Services"
         description="Reliable cab and travel services for every occasion."
       />
-      <Services showIntro={false} />
-      <CTA />
+      <Services business={business} showIntro={false} />
+      <CTA business={business} />
     </>
   );
 }

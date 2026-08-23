@@ -1,0 +1,391 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Kwik2Travels Logo Kwik2 Travels We Are Too Quicker" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Kwik2Travels Logo" [ref=e6]
+        - generic [ref=e7]:
+          - generic [ref=e8]:
+            - generic [ref=e9]: Kwik2
+            - generic [ref=e10]: Travels
+          - generic [ref=e11]: We Are Too Quicker
+      - navigation [ref=e12]:
+        - link "Home" [ref=e13] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e14] [cursor=pointer]:
+          - /url: /#about
+        - link "Holidays" [ref=e15] [cursor=pointer]:
+          - /url: /holidays
+        - link "Hotels" [ref=e16] [cursor=pointer]:
+          - /url: /hotels
+        - link "Services" [ref=e17] [cursor=pointer]:
+          - /url: /services
+        - link "Our Fleet" [ref=e18] [cursor=pointer]:
+          - /url: /fleet
+        - link "Booking" [ref=e19] [cursor=pointer]:
+          - /url: /booking
+        - link "Contact" [ref=e20] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e21]:
+        - link "+91 93291 16616" [ref=e22] [cursor=pointer]:
+          - /url: tel:+919329116616
+        - link "BOOK NOW" [ref=e25] [cursor=pointer]:
+          - /url: /booking
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - img "Scenic highway journey travel view" [ref=e29]
+      - generic [ref=e32]:
+        - generic [ref=e33]:
+          - generic [ref=e34]: We Are Too Quicker
+          - heading "Your Journey, Our Priority" [level=1] [ref=e39]
+          - paragraph [ref=e40]: Seamless booking for Holidays, Flights, Hotels, Cars, Cabs & Foreign Exchange — tailored for your comfort and peace of mind.
+          - generic [ref=e41]:
+            - generic [ref=e42]: Instant WhatsApp confirmation & quotes
+            - generic [ref=e47]: Clean, sanitized cabs with professional drivers
+            - generic [ref=e52]: Best rates guaranteed with zero hidden fees
+          - generic [ref=e57]:
+            - link "CALL NOW" [ref=e58] [cursor=pointer]:
+              - /url: tel:+919329116616
+            - link "+91 93291 16616" [ref=e61] [cursor=pointer]:
+              - /url: tel:+919329116616
+          - paragraph [ref=e76]:
+            - text: Rated
+            - strong [ref=e77]: 4.9/5
+            - text: by 5,000+ happy travellers
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - button "Holidays" [ref=e82]
+            - button "Flights" [ref=e89]
+            - button "Hotels" [ref=e93]
+            - button "Cars" [ref=e98]
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - paragraph [ref=e106]: Customised Domestic & International Holiday Packages
+              - generic [ref=e107]: Best Rate Guaranteed
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - generic [ref=e114]: Destination / Tour
+                  - textbox "Destination / Tour" [ref=e115]:
+                    - /placeholder: e.g. Kashmir, Goa, Dubai, Bali...
+                - generic [ref=e116]:
+                  - generic [ref=e117]: Starting From
+                  - textbox "Starting From" [ref=e118]:
+                    - /placeholder: e.g. Mumbai, Delhi, Pune (or Flexible)
+                - generic [ref=e119]:
+                  - generic [ref=e120]: Departure Date
+                  - textbox "Departure Date" [ref=e121]
+                - generic [ref=e122]:
+                  - generic [ref=e123]: Duration
+                  - combobox "Duration" [ref=e125]:
+                    - option "3 Nights / 4 Days"
+                    - option "4 Nights / 5 Days" [selected]
+                    - option "5 Nights / 6 Days"
+                    - option "6 Nights / 7 Days"
+                    - option "7+ Nights (Extended Tour)"
+                    - option "Custom Itinerary"
+                - generic [ref=e126]:
+                  - generic [ref=e127]: Holiday Type
+                  - combobox "Holiday Type" [ref=e129]:
+                    - option "Family Vacation" [selected]
+                    - option "Honeymoon & Romantic"
+                    - option "Beach & Leisure"
+                    - option "Hill Station & Mountains"
+                    - option "Adventure & Wildlife"
+                    - option "International Holiday"
+                    - option "Pilgrimage & Heritage"
+                - generic [ref=e130]:
+                  - generic [ref=e131]: Travelers
+                  - combobox "Travelers" [ref=e133]:
+                    - option "1 Adult"
+                    - option "2 Adults" [selected]
+                    - option "2 Adults + 1 Child"
+                    - option "2 Adults + 2 Children"
+                    - option "Family Group (4-8 Members)"
+                    - option "Large Group (8+ Members)"
+              - generic [ref=e135]:
+                - generic [ref=e136]:
+                  - generic [ref=e137]: Full Name
+                  - textbox "Full Name" [ref=e138]:
+                    - /placeholder: Your full name
+                - generic [ref=e139]:
+                  - generic [ref=e140]: WhatsApp / Phone Number
+                  - textbox "WhatsApp / Phone Number" [ref=e141]:
+                    - /placeholder: 10-digit mobile number
+              - generic [ref=e142]:
+                - button "GET HOLIDAY QUOTE" [ref=e143]
+                - paragraph [ref=e146]: Instant quote & confirmation on WhatsApp • No booking fees
+    - generic [ref=e148]:
+      - heading "Holiday Packages" [level=2] [ref=e150]
+      - generic [ref=e151]:
+        - link [ref=e152] [cursor=pointer]:
+          - /url: /holidays?category=domestic-tours
+          - img "Domestic Tours" [ref=e154]
+          - heading "Domestic Tours" [level=3] [ref=e155]
+        - link [ref=e156] [cursor=pointer]:
+          - /url: /holidays?category=international-tours
+          - img "International Tours" [ref=e158]
+          - heading "International Tours" [level=3] [ref=e159]
+        - link [ref=e160] [cursor=pointer]:
+          - /url: /holidays?category=beach
+          - img "Beach" [ref=e162]
+          - heading "Beach" [level=3] [ref=e163]
+        - link [ref=e164] [cursor=pointer]:
+          - /url: /holidays?category=wildlife
+          - img "Wildlife" [ref=e166]
+          - heading "Wildlife" [level=3] [ref=e167]
+    - generic [ref=e169]:
+      - generic [ref=e170]:
+        - heading "Featured Holiday Packages" [level=2] [ref=e171]
+        - paragraph [ref=e172]: Handpicked itineraries for unforgettable experiences.
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - generic [ref=e175]:
+            - img "Genting Dream Cruise Package HIGH SEAS" [ref=e176]
+            - generic [ref=e177]:
+              - generic [ref=e178]: 2N
+              - generic [ref=e179]: 3D
+          - generic [ref=e180]:
+            - generic [ref=e181]: Singapore
+            - heading "Genting Dream Cruise Package HIGH SEAS" [level=3] [ref=e186]
+            - generic [ref=e187]:
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: Starting from
+                - paragraph [ref=e190]: ₹25,498 /person
+              - link "View Details" [ref=e191] [cursor=pointer]:
+                - /url: /holidays/genting-dream-cruise
+        - generic [ref=e192]:
+          - generic [ref=e193]:
+            - img "Dubai 3 Star Package for 4 Days with Trio" [ref=e194]
+            - generic [ref=e195]:
+              - generic [ref=e196]: 3N
+              - generic [ref=e197]: 4D
+          - generic [ref=e198]:
+            - generic [ref=e199]: Dubai
+            - heading "Dubai 3 Star Package for 4 Days with Trio" [level=3] [ref=e204]
+            - generic [ref=e205]:
+              - generic [ref=e206]:
+                - paragraph [ref=e207]: Starting from
+                - paragraph [ref=e208]: ₹29,173 /person
+              - link "View Details" [ref=e209] [cursor=pointer]:
+                - /url: /holidays/dubai-3-star-trio
+        - generic [ref=e210]:
+          - generic [ref=e211]:
+            - img "Goa 3 star package for 4 days with Breakfast & Dinner" [ref=e212]
+            - generic [ref=e213]:
+              - generic [ref=e214]: 3N
+              - generic [ref=e215]: 4D
+          - generic [ref=e216]:
+            - generic [ref=e217]: Goa
+            - heading "Goa 3 star package for 4 days with Breakfast & Dinner" [level=3] [ref=e222]
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - paragraph [ref=e225]: Starting from
+                - paragraph [ref=e226]: ₹7,400 /person
+              - link "View Details" [ref=e227] [cursor=pointer]:
+                - /url: /holidays/goa-3-star-package
+      - link "View All Packages" [ref=e229] [cursor=pointer]:
+        - /url: /holidays
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - heading "Featured Luxury Hotels" [level=2] [ref=e233]
+        - paragraph [ref=e234]: Experience world-class hospitality in our handpicked selection of premium properties.
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - generic [ref=e237]:
+            - img "Taj Exotica Resort & Spa" [ref=e238]
+            - generic [ref=e239]: 5 Star
+          - generic [ref=e242]:
+            - heading "Taj Exotica Resort & Spa" [level=3] [ref=e243]
+            - generic [ref=e244]: Benaulim, Goa
+            - generic [ref=e249]:
+              - generic [ref=e250]:
+                - paragraph [ref=e251]: Starting from
+                - paragraph [ref=e252]: ₹18,500 / night
+              - button [ref=e253]:
+                - link "View Details" [ref=e254] [cursor=pointer]:
+                  - /url: /hotels/taj-exotica-goa
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - img "The Oberoi Udaivilas" [ref=e257]
+            - generic [ref=e258]: 5 Star
+          - generic [ref=e261]:
+            - heading "The Oberoi Udaivilas" [level=3] [ref=e262]
+            - generic [ref=e263]: Udaipur, Rajasthan
+            - generic [ref=e268]:
+              - generic [ref=e269]:
+                - paragraph [ref=e270]: Starting from
+                - paragraph [ref=e271]: ₹32,000 / night
+              - button [ref=e272]:
+                - link "View Details" [ref=e273] [cursor=pointer]:
+                  - /url: /hotels/oberoi-udaivilas-udaipur
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - img "Wildflower Hall, An Oberoi Resort" [ref=e276]
+            - generic [ref=e277]: 5 Star
+          - generic [ref=e280]:
+            - heading "Wildflower Hall, An Oberoi Resort" [level=3] [ref=e281]
+            - generic [ref=e282]: Shimla, Himachal Pradesh
+            - generic [ref=e287]:
+              - generic [ref=e288]:
+                - paragraph [ref=e289]: Starting from
+                - paragraph [ref=e290]: ₹24,000 / night
+              - button [ref=e291]:
+                - link "View Details" [ref=e292] [cursor=pointer]:
+                  - /url: /hotels/wildflower-hall-shimla
+      - link "Explore All Hotels" [ref=e294] [cursor=pointer]:
+        - /url: /hotels
+    - generic [ref=e296]:
+      - generic [ref=e297]:
+        - heading "Our Fleet" [level=2] [ref=e298]
+        - paragraph [ref=e299]: Choose from our available vehicles for a comfortable ride suited to your trip.
+      - generic [ref=e300]:
+        - generic [ref=e302]:
+          - img "Toyota Innova Crysta" [ref=e304]
+          - generic [ref=e305]:
+            - heading "Toyota Innova Crysta" [level=3] [ref=e306]
+            - paragraph [ref=e307]: Comfortable premium travel option for families and longer journeys.
+            - generic [ref=e308]: Contact for Price
+            - link "ENQUIRE NOW" [ref=e312] [cursor=pointer]:
+              - /url: https://wa.me/919329116616?text=%E2%9C%88%EF%B8%8F%20*Vehicle%20Enquiry%20-%20Kwik2Travels*%0A%0A%E2%80%A2%20*Vehicle%20Preference%3A*%20Toyota%20Innova%20Crysta%0A%E2%80%A2%20*Special%20Requests%20%2F%20Notes%3A*%20I%20would%20like%20to%20enquire%20about%20booking%20the%20Toyota%20Innova%20Crysta.%0A%0A_Inquiry%20submitted%20via%20Kwik2Travels%20Website_
+        - generic [ref=e314]:
+          - img "Maruti Suzuki Ertiga" [ref=e316]
+          - generic [ref=e317]:
+            - heading "Maruti Suzuki Ertiga" [level=3] [ref=e318]
+            - paragraph [ref=e319]: Spacious and practical option for family and group travel.
+            - generic [ref=e320]: Contact for Price
+            - link "ENQUIRE NOW" [ref=e324] [cursor=pointer]:
+              - /url: https://wa.me/919329116616?text=%E2%9C%88%EF%B8%8F%20*Vehicle%20Enquiry%20-%20Kwik2Travels*%0A%0A%E2%80%A2%20*Vehicle%20Preference%3A*%20Maruti%20Suzuki%20Ertiga%0A%E2%80%A2%20*Special%20Requests%20%2F%20Notes%3A*%20I%20would%20like%20to%20enquire%20about%20booking%20the%20Maruti%20Suzuki%20Ertiga.%0A%0A_Inquiry%20submitted%20via%20Kwik2Travels%20Website_
+        - generic [ref=e326]:
+          - img "Maruti Suzuki Swift Dzire" [ref=e328]
+          - generic [ref=e329]:
+            - heading "Maruti Suzuki Swift Dzire" [level=3] [ref=e330]
+            - paragraph [ref=e331]: Comfortable and economical option for everyday and outstation travel.
+            - generic [ref=e332]: Contact for Price
+            - link "ENQUIRE NOW" [ref=e336] [cursor=pointer]:
+              - /url: https://wa.me/919329116616?text=%E2%9C%88%EF%B8%8F%20*Vehicle%20Enquiry%20-%20Kwik2Travels*%0A%0A%E2%80%A2%20*Vehicle%20Preference%3A*%20Maruti%20Suzuki%20Swift%20Dzire%0A%E2%80%A2%20*Special%20Requests%20%2F%20Notes%3A*%20I%20would%20like%20to%20enquire%20about%20booking%20the%20Maruti%20Suzuki%20Swift%20Dzire.%0A%0A_Inquiry%20submitted%20via%20Kwik2Travels%20Website_
+    - generic [ref=e338]:
+      - generic [ref=e339]:
+        - heading "Our Services" [level=2] [ref=e340]
+        - paragraph [ref=e341]: From a quick local ride to a planned outstation tour, Kwik2Travels covers the trips that matter to you.
+      - generic [ref=e342]:
+        - generic [ref=e344]:
+          - img "Airport Transfers" [ref=e346]
+          - generic [ref=e351]:
+            - heading "Airport Transfers" [level=3] [ref=e352]
+            - paragraph [ref=e353]: Reliable pickup and drop service.
+        - generic [ref=e354]:
+          - generic [ref=e356]:
+            - img "One Way Cab" [ref=e358]
+            - generic [ref=e359]:
+              - heading "One Way Cab" [level=3] [ref=e364]
+              - paragraph [ref=e365]: Convenient point-to-point travel.
+          - generic [ref=e367]:
+            - img "Round Trip" [ref=e369]
+            - generic [ref=e370]:
+              - heading "Round Trip" [level=3] [ref=e378]
+              - paragraph [ref=e379]: Comfortable return journeys.
+          - generic [ref=e381]:
+            - img "Outstation Travel" [ref=e383]
+            - generic [ref=e384]:
+              - heading "Outstation Travel" [level=3] [ref=e391]
+              - paragraph [ref=e392]: Travel beyond the city with ease.
+          - generic [ref=e394]:
+            - img "Local Cab" [ref=e396]
+            - generic [ref=e397]:
+              - heading "Local Cab" [level=3] [ref=e404]
+              - paragraph [ref=e405]: Convenient transportation for local requirements.
+          - generic [ref=e407]:
+            - img "Tour & Travel" [ref=e409]
+            - generic [ref=e410]:
+              - heading "Tour & Travel" [level=3] [ref=e416]
+              - paragraph [ref=e417]: Transportation for planned trips and tours.
+    - generic [ref=e419]:
+      - heading "Why Choose Kwik2Travels" [level=2] [ref=e420]
+      - generic [ref=e421]:
+        - paragraph [ref=e427]: Comfortable Cars
+        - paragraph [ref=e433]: Professional Service
+        - paragraph [ref=e439]: Easy Booking
+        - paragraph [ref=e446]: Flexible Travel
+        - paragraph [ref=e452]: Clean Vehicles
+        - paragraph [ref=e457]: Customer-Focused Service
+    - generic [ref=e459]:
+      - img "Friendly driver providing excellent customer service" [ref=e461]
+      - generic [ref=e462]:
+        - heading "About Kwik2Travels" [level=2] [ref=e463]
+        - paragraph [ref=e464]: Kwik2Travels provides convenient cab and travel solutions for local, airport and outstation journeys. With a selection of comfortable vehicles including Innova Crysta, Ertiga and Swift Dzire, customers can choose a suitable ride for their travel requirements.
+    - generic [ref=e466]:
+      - heading "Ready for Your Next Journey?" [level=2] [ref=e467]
+      - paragraph [ref=e468]: Book a comfortable ride with Kwik2Travels.
+      - generic [ref=e469]:
+        - link "BOOK NOW" [ref=e470] [cursor=pointer]:
+          - /url: /booking
+        - link "CALL NOW" [ref=e471] [cursor=pointer]:
+          - /url: tel:+919329116616
+      - link "+91 93291 16616" [ref=e474] [cursor=pointer]:
+        - /url: tel:+919329116616
+  - contentinfo [ref=e477]:
+    - generic [ref=e478]:
+      - generic [ref=e479]:
+        - generic [ref=e480]:
+          - img "Kwik2Travels Logo" [ref=e482]
+          - generic [ref=e483]:
+            - paragraph [ref=e484]: KWIK2TRAVELS
+            - paragraph [ref=e485]: We Are Too Quicker
+        - paragraph [ref=e486]: Comfortable and reliable cab services for local, outstation and airport travel.
+      - generic [ref=e487]:
+        - paragraph [ref=e488]: Quick Links
+        - list [ref=e489]:
+          - listitem [ref=e490]:
+            - link "Home" [ref=e491] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=e492]:
+            - link "About" [ref=e493] [cursor=pointer]:
+              - /url: /#about
+          - listitem [ref=e494]:
+            - link "Holidays" [ref=e495] [cursor=pointer]:
+              - /url: /holidays
+          - listitem [ref=e496]:
+            - link "Hotels" [ref=e497] [cursor=pointer]:
+              - /url: /hotels
+          - listitem [ref=e498]:
+            - link "Services" [ref=e499] [cursor=pointer]:
+              - /url: /services
+          - listitem [ref=e500]:
+            - link "Our Fleet" [ref=e501] [cursor=pointer]:
+              - /url: /fleet
+          - listitem [ref=e502]:
+            - link "Booking" [ref=e503] [cursor=pointer]:
+              - /url: /booking
+          - listitem [ref=e504]:
+            - link "Contact" [ref=e505] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e506]:
+        - paragraph [ref=e507]: Our Services
+        - list [ref=e508]:
+          - listitem [ref=e509]: Airport Transfers
+          - listitem [ref=e510]: One Way
+          - listitem [ref=e511]: Round Trip
+          - listitem [ref=e512]: Local Travel
+          - listitem [ref=e513]: Outstation Travel
+          - listitem [ref=e514]: Tour Packages
+      - generic [ref=e515]:
+        - paragraph [ref=e516]: Contact
+        - link "+91 93291 16616" [ref=e517] [cursor=pointer]:
+          - /url: tel:+919329116616
+    - paragraph [ref=e521]: © 2026 Kwik2Travels. All rights reserved.
+  - generic [ref=e522]:
+    - link "Chat on WhatsApp" [ref=e523] [cursor=pointer]:
+      - /url: https://wa.me/919329116616
+    - link "Call Kwik2Travels" [ref=e526] [cursor=pointer]:
+      - /url: tel:+919329116616
+  - generic [ref=e533] [cursor=pointer]:
+    - button "Open Next.js Dev Tools" [ref=e534]
+    - generic [ref=e538]:
+      - button "Open issues overlay" [ref=e539]:
+        - generic [ref=e540]:
+          - generic [ref=e541]: "0"
+          - generic [ref=e542]: "1"
+        - generic [ref=e543]: Issue
+      - button "Collapse issues badge" [ref=e544]
+  - alert [ref=e547]

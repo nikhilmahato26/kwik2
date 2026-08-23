@@ -2,9 +2,8 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import { iconMap } from "@/lib/icon-map";
-import { business } from "@/data/business";
 
-export default function WhyChooseUs() {
+export default function WhyChooseUs({ business }) {
   const reduce = useReducedMotion();
 
   return (

@@ -1,7 +1,6 @@
 import { Phone, MessageCircle } from "lucide-react";
-import { business } from "@/data/business";
 
-export default function FloatingActions() {
+export default function FloatingActions({ business }) {
   return (
     <div className="fixed bottom-5 right-5 z-40 flex flex-col gap-3">
       <a

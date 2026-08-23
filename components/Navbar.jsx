@@ -12,9 +12,8 @@ import {
 } from "motion/react";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { business } from "@/data/business";
 
-export default function Navbar() {
+export default function Navbar({ business }) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const reduce = useReducedMotion();
@@ -39,12 +38,13 @@ export default function Navbar() {
     >
       <div className="mx-auto flex h-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-3" onClick={() => setOpen(false)}>
-          <div className="relative h-14 w-11 shrink-0">
+          <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-full">
             <Image
-              src="/images/logo.jpg"
+              src="/logo.png"
               alt="Kwik2Travels Logo"
               fill
-              className="object-contain"
+              sizes="48px"
+              className="object-cover"
               priority
             />
           </div>

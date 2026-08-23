@@ -1,5 +1,5 @@
 import HotelCard from "@/components/HotelCard";
-import { hotels } from "@/data/hotels";
+import { getHotels } from "@/lib/data";
 
 export const metadata = {
   title: "Luxury Hotels & Resorts | Kwik2Travels",
@@ -7,7 +7,8 @@ export const metadata = {
     "Discover handpicked luxury hotels and resorts for your perfect getaway with Kwik2Travels.",
 };
 
-export default function HotelsPage() {
+export default async function HotelsPage() {
+  const hotels = await getHotels();
   return (
     <div className="pt-24 lg:pt-28 bg-gray-50/50 min-h-screen">
       <section className="bg-white px-4 pb-16 sm:px-6 lg:px-8 lg:pb-24 pt-8 sm:pt-12">

@@ -16,6 +16,8 @@ import {
 import { Field, Input, Select, Textarea } from "@/components/ui/field";
 import { Button } from "@/components/ui/button";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
+import { toTitleCase } from "@/lib/utils";
+import { createLead } from "@/app/actions";
 import { vehicleOptions } from "@/data/vehicles";
 
 const TABS = [
@@ -173,14 +175,14 @@ export default function BookingForm({
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     if (!validate()) return;
 
     setIsSubmitting(true);
 
     let payload = {
-      name: formData.name,
+      name: toTitleCase(formData.name),
       phone: formData.phone,
       serviceTab: currentTabConfig.label,
     };
@@ -188,8 +190,8 @@ export default function BookingForm({
     if (activeTab === "holidays") {
       payload = {
         ...payload,
-        fromCity: formData.fromCity || "Flexible",
-        destination: formData.destination,
+        fromCity: toTitleCase(formData.fromCity) || "Flexible",
+        destination: toTitleCase(formData.destination),
         departureDate: formData.departureDate,
         duration: formData.duration,
         packageType: formData.packageType,
@@ -200,8 +202,8 @@ export default function BookingForm({
       payload = {
         ...payload,
         tripType: flightTripType,
-        fromCity: formData.flightFrom,
-        toCity: formData.flightTo,
+        fromCity: toTitleCase(formData.flightFrom),
+        toCity: toTitleCase(formData.flightTo),
         departureDate: formData.flightDeparture,
         returnDate: flightTripType === "Round Trip" ? formData.flightReturn : "N/A",
         flightClass: formData.flightClass,
@@ -211,7 +213,7 @@ export default function BookingForm({
     } else if (activeTab === "hotels") {
       payload = {
         ...payload,
-        destination: formData.hotelCity,
+        destination: toTitleCase(formData.hotelCity),
         checkIn: formData.checkIn,
         checkOut: formData.checkOut,
         guests: formData.guests,
@@ -222,8 +224,8 @@ export default function BookingForm({
       payload = {
         ...payload,
         tripType: carTripType,
-        pickup: formData.carPickup,
-        drop: formData.carDrop,
+        pickup: toTitleCase(formData.carPickup),
+        drop: toTitleCase(formData.carDrop),
         date: formData.carDate,
         time: formData.carTime || "Flexible",
         vehicle: formData.carVehicle,
@@ -231,6 +233,12 @@ export default function BookingForm({
       };
     }
 
+
+    try {
+      await createLead(currentTabConfig.heading, payload);
+    } catch (err) {
+      console.error("Failed to save enquiry:", err);
+    }
 
     const whatsappUrl = buildWhatsappUrl(payload, currentTabConfig.heading);
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");

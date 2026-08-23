@@ -5,9 +5,9 @@ import { motion, useReducedMotion } from "motion/react";
 import { Phone, CheckCircle, Star, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BookingForm from "@/components/BookingForm";
-import { business } from "@/data/business";
+import Link from "next/link";
 
-export default function Hero() {
+export default function Hero({ business }) {
   const reduce = useReducedMotion();
 
   return (

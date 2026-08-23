@@ -8,9 +8,10 @@ import { Field, Input, Select, Textarea } from "@/components/ui/field";
 import { Button } from "@/components/ui/button";
 import { contactSchema } from "@/lib/schema";
 import { buildWhatsappUrl } from "@/lib/whatsapp";
-import { business } from "@/data/business";
+import { toTitleCase } from "@/lib/utils";
+import { createLead } from "@/app/actions";
 
-export default function ContactForm() {
+export default function ContactForm({ business }) {
   const [sent, setSent] = useState(false);
   const {
     register,
@@ -19,8 +20,21 @@ export default function ContactForm() {
     formState: { errors, isSubmitting },
   } = useForm({ resolver: zodResolver(contactSchema) });
 
-  const onSubmit = (values) => {
-    const url = buildWhatsappUrl(values, "General Enquiry");
+  const onSubmit = async (values) => {
+    const formattedValues = {
+      ...values,
+      name: toTitleCase(values.name),
+      pickup: values.pickup ? toTitleCase(values.pickup) : values.pickup,
+      destination: values.destination ? toTitleCase(values.destination) : values.destination,
+    };
+
+    try {
+      await createLead("General Enquiry", formattedValues);
+    } catch (err) {
+      console.error("Failed to save enquiry:", err);
+    }
+
+    const url = buildWhatsappUrl(formattedValues, "General Enquiry");
     window.open(url, "_blank", "noopener,noreferrer");
     setSent(true);
     reset();

@@ -4,9 +4,8 @@ import Link from "next/link";
 import { motion, useReducedMotion } from "motion/react";
 import { Phone } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import { business } from "@/data/business";
 
-export default function CTA() {
+export default function CTA({ business }) {
   const reduce = useReducedMotion();
 
   return (

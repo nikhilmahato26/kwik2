@@ -2,9 +2,8 @@
 
 import { motion, useReducedMotion } from "motion/react";
 import VehicleCard from "@/components/VehicleCard";
-import { vehicles } from "@/data/vehicles";
 
-export default function Fleet({ showIntro = true }) {
+export default function Fleet({ vehicles, showIntro = true }) {
   const reduce = useReducedMotion();
 
   return (

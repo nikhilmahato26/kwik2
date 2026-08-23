@@ -1,0 +1,115 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id        String   @id @default(uuid())
+  email     String   @unique
+  password  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model SiteSetting {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Service {
+  id          String   @id @default(uuid())
+  slug        String   @unique
+  name        String
+  description String
+  icon        String
+  image       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Feature {
+  id        String   @id @default(uuid())
+  title     String
+  icon      String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TripType {
+  id        String   @id @default(uuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Vehicle {
+  id          String   @id @default(uuid())
+  slug        String   @unique
+  name        String
+  description String
+  image       String
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model HolidayCollection {
+  id        String   @id @default(uuid())
+  slug      String   @unique
+  title     String
+  image     String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model HolidayPackage {
+  id            String   @id @default(uuid())
+  slug          String   @unique
+  title         String
+  originCity    String
+  placesCovered String
+  validity      String
+  duration      String
+  category      String
+  hotels        String
+  startingPrice Float
+  image         String
+  pricing       Json     // Store as JSON object mapping string to string
+  itinerary     Json     // Store as array of objects {day, title, description}
+  inclusions    Json     // Store as array of strings
+  exclusions    Json     // Store as array of strings
+  terms         Json     // Store as array of strings
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Lead {
+  id        String   @id @default(uuid())
+  name      String
+  phone     String
+  source    String
+  status    String   @default("new")
+  details   Json
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Hotel {
+  id            String   @id @default(uuid())
+  slug          String   @unique
+  title         String
+  location      String
+  starRating    Int
+  startingPrice Float
+  image         String
+  description   String
+  amenities     Json     // Store as array of strings
+  terms         Json     // Store as array of strings
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}

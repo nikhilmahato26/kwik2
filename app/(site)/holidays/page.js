@@ -1,7 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import HolidayCollections from "@/components/HolidayCollections";
 import HolidayCard from "@/components/HolidayCard";
-import { holidayPackages, holidayCollections } from "@/data/holidays";
+import { getHolidayCollections, getHolidayPackages } from "@/lib/data";
 
 export const metadata = {
   title: "Holiday Packages | Domestic & International Tours",
@@ -11,6 +11,10 @@ export const metadata = {
 
 export default async function HolidaysPage({ searchParams }) {
   const { category } = await searchParams;
+  const [holidayCollections, holidayPackages] = await Promise.all([
+    getHolidayCollections(),
+    getHolidayPackages(),
+  ]);
   
   const filteredPackages = category 
     ? holidayPackages.filter((pkg) => pkg.category === category)
@@ -24,7 +28,7 @@ export default async function HolidaysPage({ searchParams }) {
     <div className="pt-24 lg:pt-28 bg-gray-50/50">
 
       {/* 4 Collections Section */}
-      <HolidayCollections />
+      <HolidayCollections holidayCollections={holidayCollections} />
 
       {/* All Packages Section */}
       <section className="bg-white px-4 pb-16 sm:px-6 lg:px-8 lg:pb-24 pt-8 sm:pt-12">

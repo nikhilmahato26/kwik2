@@ -4,6 +4,19 @@ import { Clock, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function HolidayCard({ pkg }) {
+  const parseDuration = (str) => {
+    if (!str) return null;
+    const daysMatch = str.match(/(\d+)\s*Day/i);
+    const nightsMatch = str.match(/(\d+)\s*Night/i);
+    
+    if (daysMatch && nightsMatch) {
+      return { days: daysMatch[1], nights: nightsMatch[1] };
+    }
+    return null;
+  };
+
+  const parsedDuration = parseDuration(pkg.duration);
+
   return (
     <div className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white shadow-md transition-all hover:shadow-xl">
       <div className="relative aspect-[4/3] w-full overflow-hidden">
@@ -12,9 +25,21 @@ export default function HolidayCard({ pkg }) {
           alt={pkg.title}
           className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
-        <div className="absolute top-3 right-3 rounded-full bg-black/60 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
-          {pkg.duration}
-        </div>
+        
+        {parsedDuration ? (
+          <div className="absolute top-3 right-3 flex items-center overflow-hidden rounded shadow-sm border border-white/20 text-xs font-bold text-white">
+            <div className="bg-indigo-900/90 px-2.5 py-1 backdrop-blur-sm">
+              {parsedDuration.nights}N
+            </div>
+            <div className="bg-gold-dark/95 px-2.5 py-1 backdrop-blur-sm">
+              {parsedDuration.days}D
+            </div>
+          </div>
+        ) : (
+          <div className="absolute top-3 right-3 rounded bg-black/60 px-3 py-1 text-xs font-semibold text-white backdrop-blur-sm">
+            {pkg.duration}
+          </div>
+        )}
       </div>
       
       <div className="flex flex-1 flex-col p-5">

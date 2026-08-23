@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Phone } from "lucide-react";
-import { business } from "@/data/business";
 
 const serviceLinks = [
   "Airport Transfers",
@@ -12,7 +11,7 @@ const serviceLinks = [
   "Tour Packages",
 ];
 
-export default function Footer() {
+export default function Footer({ business }) {
   const year = new Date().getFullYear();
 
   return (
@@ -20,12 +19,13 @@ export default function Footer() {
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 sm:grid-cols-2 lg:grid-cols-4">
         <div>
           <div className="flex items-center gap-3">
-            <div className="relative h-16 w-12 shrink-0">
+            <div className="relative h-14 w-14 shrink-0 overflow-hidden rounded-full">
               <Image
-                src="/images/logo.jpg"
+                src="/logo.png"
                 alt="Kwik2Travels Logo"
                 fill
-                className="object-contain"
+                sizes="56px"
+                className="object-cover"
               />
             </div>
             <div>

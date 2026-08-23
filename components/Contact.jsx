@@ -1,8 +1,7 @@
-import { Phone, MapPin } from "lucide-react";
+import { Phone, Mail, MapPin } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
-import { business } from "@/data/business";
 
-export default function Contact() {
+export default function Contact({ business }) {
   return (
     <section className="bg-off-white px-4 py-20 sm:px-6 lg:px-8 lg:py-28">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-10 lg:grid-cols-5 lg:gap-14">
@@ -43,7 +42,7 @@ export default function Contact() {
           <h2 className="mb-6 font-display text-2xl font-semibold text-maroon-deep">
             Send an Enquiry
           </h2>
-          <ContactForm />
+          <ContactForm business={business} />
         </div>
       </div>
     </section>

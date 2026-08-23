@@ -1,7 +1,7 @@
 import PageHeader from "@/components/PageHeader";
 import BookingForm from "@/components/BookingForm";
 import { Phone } from "lucide-react";
-import { business } from "@/data/business";
+import { getBusinessData } from "@/lib/data";
 
 export const metadata = {
   title: "Book a Cab",
@@ -9,7 +9,8 @@ export const metadata = {
     "Book your Kwik2Travels cab online. Fill in your trip details and send your booking request directly on WhatsApp.",
 };
 
-export default function BookingPage() {
+export default async function BookingPage() {
+  const business = await getBusinessData();
   return (
     <>
       <PageHeader

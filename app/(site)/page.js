@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import IntroVideo from "@/components/IntroVideo";
 import Fleet from "@/components/Fleet";
 import Services from "@/components/Services";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -7,15 +8,23 @@ import CTA from "@/components/CTA";
 import HolidayCollections from "@/components/HolidayCollections";
 import HolidayCard from "@/components/HolidayCard";
 import HotelCard from "@/components/HotelCard";
-import { holidayPackages } from "@/data/holidays";
-import { hotels } from "@/data/hotels";
 import Link from "next/link";
+import { getBusinessData, getVehicles, getHolidayCollections, getHolidayPackages, getHotels } from "@/lib/data";
 
-export default function Home() {
+export default async function Home() {
+  const [business, vehicles, holidayCollections, holidayPackages, hotels] = await Promise.all([
+    getBusinessData(),
+    getVehicles(),
+    getHolidayCollections(),
+    getHolidayPackages(),
+    getHotels(),
+  ]);
+
   return (
     <>
-      <Hero />
-      <HolidayCollections />
+      <IntroVideo />
+      <Hero business={business} />
+      <HolidayCollections holidayCollections={holidayCollections} />
 
       {/* Featured Packages Section */}
       <section className="bg-white px-4 pb-16 sm:px-6 lg:px-8 lg:pb-24 pt-8 sm:pt-12">
@@ -75,11 +84,11 @@ export default function Home() {
         </div>
       </section>
 
-      <Fleet />
-      <Services />
-      <WhyChooseUs />
+      <Fleet vehicles={vehicles} />
+      <Services business={business} />
+      <WhyChooseUs business={business} />
       <About />
-      <CTA />
+      <CTA business={business} />
     </>
   );
 }
