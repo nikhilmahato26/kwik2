@@ -26,7 +26,7 @@ export const metadata = {
     template: "%s | Kwik2Travels",
   },
   description:
-    "Kwik2Travels offers reliable cab rental, local travel, outstation trips and airport transfers with Innova Crysta, Ertiga and Swift Dzire. Call +91 93291 16616 or +91 62323 22216 to book.",
+    "Seamless booking for Holidays, Flights, Hotels, Bus, Cabs & Visa — tailored itinerary for your comfort and peace of mind.",
   keywords: [
     "Kwik2Travels",
     "cab service",
@@ -42,7 +42,7 @@ export const metadata = {
   openGraph: {
     title: "Kwik2Travels | Cab Rental & Outstation Taxi Service",
     description:
-      "Comfortable and reliable cab services for local, outstation and airport travel. Book Innova Crysta, Ertiga or Swift Dzire.",
+      "Seamless booking for Holidays, Flights, Hotels, Bus, Cabs & Visa — tailored itinerary for your comfort and peace of mind.",
     siteName: "Kwik2Travels",
     type: "website",
     locale: "en_IN",
