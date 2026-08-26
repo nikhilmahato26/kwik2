@@ -27,7 +27,7 @@ export default async function EditHolidayPackage({ params }) {
         <h1 className="text-2xl font-bold text-gray-900 font-display">Edit Package</h1>
       </div>
 
-      <HolidayForm action={action} initialData={pkg} collections={collections} redirectTo="/admin/holidays" />
+      <HolidayForm key={pkg.id} action={action} initialData={pkg} collections={collections} redirectTo="/admin/holidays" />
     </div>
   )
 }

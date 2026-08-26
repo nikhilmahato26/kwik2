@@ -71,6 +71,7 @@ model HolidayPackage {
   id            String   @id @default(uuid())
   slug          String   @unique
   title         String
+  overview      String?
   originCity    String
   placesCovered String
   validity      String

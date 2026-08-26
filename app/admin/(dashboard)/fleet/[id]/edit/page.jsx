@@ -27,7 +27,7 @@ export default async function EditVehiclePage({ params }) {
         </div>
       </div>
 
-      <VehicleForm action={action} initialData={vehicle} redirectTo="/admin/fleet" />
+      <VehicleForm key={vehicle.id} action={action} initialData={vehicle} redirectTo="/admin/fleet" />
     </div>
   )
 }

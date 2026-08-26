@@ -24,7 +24,7 @@ export default async function EditHotel({ params }) {
         <h1 className="text-2xl font-bold text-gray-900 font-display">Edit Hotel</h1>
       </div>
 
-      <HotelForm action={action} initialData={hotel} redirectTo="/admin/hotels" />
+      <HotelForm key={hotel.id} action={action} initialData={hotel} redirectTo="/admin/hotels" />
     </div>
   )
 }

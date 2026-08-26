@@ -84,6 +84,11 @@ export default async function HolidayDetailsPage({ params }) {
             {/* Overview Section */}
             <section className="rounded-2xl bg-white p-6 shadow-sm sm:p-8">
               <h2 className="mb-6 font-display text-2xl font-bold text-gray-900">Package Overview</h2>
+              {pkg.overview && (
+                <div className="mb-8 text-gray-600 leading-relaxed whitespace-pre-wrap">
+                  {pkg.overview}
+                </div>
+              )}
               <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                 <div>
                   <h3 className="mb-2 text-sm font-semibold text-gray-500 uppercase tracking-wider">Pricing Options</h3>

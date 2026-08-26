@@ -95,9 +95,11 @@ export async function updateVehicle(id, formData) {
   }
 
   try {
+    const slug = slugify(name)
     await db.vehicle.update({
       where: { id },
       data: {
+        slug,
         name: toTitleCase(name),
         description,
         image,
@@ -106,7 +108,9 @@ export async function updateVehicle(id, formData) {
 
     revalidatePath("/")
     revalidatePath("/fleet")
+    revalidatePath(`/fleet/${slug}`)
     revalidatePath("/admin/fleet")
+    revalidatePath(`/admin/fleet/${id}/edit`)
 
     return { success: true }
   } catch (error) {
@@ -152,6 +156,7 @@ function buildHolidayData(formData) {
 
   return {
     title: toTitleCase(formData.get("title")?.toString().trim() || ""),
+    overview: formData.get("overview")?.toString().trim() || "",
     originCity: toTitleCase(formData.get("originCity")?.toString().trim() || ""),
     placesCovered: formData.get("placesCovered")?.toString().trim() || "",
     validity: formData.get("validity")?.toString().trim() || "",
@@ -202,14 +207,18 @@ export async function updateHolidayPackage(id, formData) {
   }
 
   try {
+    const slug = slugify(data.title)
     await db.holidayPackage.update({
       where: { id },
-      data,
+      data: { ...data, slug },
     })
 
     revalidatePath("/")
     revalidatePath("/holidays")
+    revalidatePath(`/holidays/${slug}`)
     revalidatePath("/admin/holidays")
+    revalidatePath(`/admin/holidays/${id}/edit`)
+    revalidatePath(`/admin/holidays/${id}`)
 
     return { success: true }
   } catch (error) {
@@ -280,14 +289,17 @@ export async function updateHotel(id, formData) {
   }
 
   try {
+    const slug = slugify(data.title)
     await db.hotel.update({
       where: { id },
-      data,
+      data: { ...data, slug },
     })
 
     revalidatePath("/")
     revalidatePath("/hotels")
+    revalidatePath(`/hotels/${slug}`)
     revalidatePath("/admin/hotels")
+    revalidatePath(`/admin/hotels/${id}/edit`)
 
     return { success: true }
   } catch (error) {
