@@ -11,11 +11,11 @@ import {
   ArrowLeft
 } from "lucide-react";
 import PackageBookingForm from "@/components/PackageBookingForm";
-import { holidayPackages } from "@/data/holidays";
+import { getHolidayPackages, getHolidayPackageBySlug } from "@/lib/data";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const pkg = holidayPackages.find((p) => p.slug === slug);
+  const pkg = await getHolidayPackageBySlug(slug);
   if (!pkg) return { title: "Package Not Found" };
   return {
     title: `${pkg.title} | Kwik2Travels Holidays`,
@@ -23,7 +23,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const holidayPackages = await getHolidayPackages();
   return holidayPackages.map((pkg) => ({
     slug: pkg.slug,
   }));
@@ -31,7 +32,7 @@ export function generateStaticParams() {
 
 export default async function HolidayDetailsPage({ params }) {
   const { slug } = await params;
-  const pkg = holidayPackages.find((p) => p.slug === slug);
+  const pkg = await getHolidayPackageBySlug(slug);
   
   if (!pkg) {
     notFound();
@@ -87,7 +88,7 @@ export default async function HolidayDetailsPage({ params }) {
                 <div>
                   <h3 className="mb-2 text-sm font-semibold text-gray-500 uppercase tracking-wider">Pricing Options</h3>
                   <ul className="space-y-3">
-                    {Object.entries(pkg.pricing).map(([label, price]) => (
+                    {pkg.pricing && typeof pkg.pricing === 'object' && Object.entries(pkg.pricing).map(([label, price]) => (
                       <li key={label} className="flex justify-between border-b border-gray-100 pb-2 text-sm">
                         <span className="text-gray-600">{label}</span>
                         <span className="font-bold text-maroon-deep">{price}</span>
@@ -110,7 +111,7 @@ export default async function HolidayDetailsPage({ params }) {
             <section className="rounded-2xl bg-white p-6 shadow-sm sm:p-8">
               <h2 className="mb-6 font-display text-2xl font-bold text-gray-900">Day-by-Day Itinerary</h2>
               <div className="space-y-6">
-                {pkg.itinerary.map((item, index) => (
+                {pkg.itinerary && Array.isArray(pkg.itinerary) && pkg.itinerary.map((item, index) => (
                   <div key={index} className="relative pl-8 sm:pl-10">
                     <div className="absolute left-0 top-1.5 flex h-6 w-6 items-center justify-center rounded-full bg-maroon text-xs font-bold text-white shadow-sm ring-4 ring-white">
                       {index + 1}
@@ -135,7 +136,7 @@ export default async function HolidayDetailsPage({ params }) {
                   <CheckCircle2 className="size-5 text-green-600" /> Inclusions
                 </h2>
                 <ul className="space-y-3">
-                  {pkg.inclusions.map((item, i) => (
+                  {pkg.inclusions && Array.isArray(pkg.inclusions) && pkg.inclusions.map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-gray-600">
                       <CheckCircle2 className="mt-0.5 size-4 shrink-0 text-green-500" />
                       <span>{item}</span>
@@ -148,7 +149,7 @@ export default async function HolidayDetailsPage({ params }) {
                   <XCircle className="size-5 text-red-500" /> Exclusions
                 </h2>
                 <ul className="space-y-3">
-                  {pkg.exclusions.map((item, i) => (
+                  {pkg.exclusions && Array.isArray(pkg.exclusions) && pkg.exclusions.map((item, i) => (
                     <li key={i} className="flex items-start gap-3 text-sm text-gray-600">
                       <XCircle className="mt-0.5 size-4 shrink-0 text-red-400" />
                       <span>{item}</span>
@@ -164,7 +165,7 @@ export default async function HolidayDetailsPage({ params }) {
                 <Info className="size-5 text-blue-500" /> Important Terms & Conditions
               </h2>
               <ul className="space-y-3 list-disc pl-5">
-                {pkg.terms.map((item, i) => (
+                {pkg.terms && Array.isArray(pkg.terms) && pkg.terms.map((item, i) => (
                   <li key={i} className="text-sm text-gray-600">
                     {item}
                   </li>
