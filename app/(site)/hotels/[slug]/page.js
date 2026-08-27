@@ -8,11 +8,11 @@ import {
   ArrowLeft
 } from "lucide-react";
 import HotelBookingForm from "@/components/HotelBookingForm";
-import { hotels } from "@/data/hotels";
+import { getHotels, getHotelBySlug } from "@/lib/data";
 
 export async function generateMetadata({ params }) {
   const { slug } = await params;
-  const hotel = hotels.find((h) => h.slug === slug);
+  const hotel = await getHotelBySlug(slug);
   if (!hotel) return { title: "Hotel Not Found" };
   return {
     title: `${hotel.title} | Kwik2Travels Hotels`,
@@ -20,7 +20,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
-export function generateStaticParams() {
+export async function generateStaticParams() {
+  const hotels = await getHotels();
   return hotels.map((hotel) => ({
     slug: hotel.slug,
   }));
@@ -28,8 +29,8 @@ export function generateStaticParams() {
 
 export default async function HotelDetailsPage({ params }) {
   const { slug } = await params;
-  const hotel = hotels.find((h) => h.slug === slug);
-  
+  const hotel = await getHotelBySlug(slug);
+
   if (!hotel) {
     notFound();
   }
